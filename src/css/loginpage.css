@@ -1,0 +1,52 @@
+/* loginpage.css */
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/010/865/555/non_2x/autumn-rural-landscape-farm-fields-and-forest-trees-with-orang-blue-sky-sunset-cartoon-banner-backdrop-farm-field-harvest-scenery-of-natural-countryside-with-sunrise-for-fall-season-background-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: large;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 1cm;
+  backdrop-filter: blur(50px);
+  border: 3px solid whitesmoke;
+  min-height: 250px;
+  min-width: 270px;
+  justify-content: center;
+}
+
+.input-group {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.notifiup {
+  color: whitesmoke;
+  transition: color 0.01s ease-in-out;
+  transform: translateY(-11px);
+  font-size: 15px;
+}
+.notifi-up {
+  color: whitesmoke;
+  transition: color 0.01s ease-in-out;
+  transform: translateY(-11px);
+  font-size: 15px;
+}
+.form-check {
+  padding-top: 10px;
+}
