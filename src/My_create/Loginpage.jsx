@@ -45,7 +45,7 @@ function Login() {
               color: "whitesmoke",
               borderBottom: "2px solid black",
               paddingTop: "5px",
-              fontSize:"15px"
+              fontSize:"15px",outline:"0"
             }}
             required
           />
@@ -65,7 +65,7 @@ function Login() {
               background: "transparent",
               color: "whitesmoke",
               paddingTop: "5px",
-              fontSize:"15px"
+              fontSize:"15px",outline:"0"
             }}
             required
           />
